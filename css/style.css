@@ -1,0 +1,258 @@
+*{ box-sizing: border-box; }
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main-header{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.main-header .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .logo{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+    padding: 7px 0;
+}
+
+.main-header .menu ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .menu a{
+    font-size: 16px;
+    display: block;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-header .menu a:hover{
+    color: #999;
+}
+
+/* WE work */
+.we-work{
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.we-work h1{
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 230px;
+}
+
+.we-work a{
+    display: block;
+    width: 67px;
+    margin: 0 auto;
+}
+
+
+/* WE ARE */
+.we-are{
+    padding-top: 70px;
+}
+
+.we-are .container{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 70px;
+}
+
+.we-are h2{
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.we-are .intro{
+    font-size: 25px;
+    margin-bottom: 90px;
+    line-height: 42px;
+}
+
+.we-are .line{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.we-are .line .item{
+    width: 22%;
+}
+
+.we-are .line .item img{
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.we-are .line .item h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+.we-are .line .item p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.we-are .line .item a{
+    display: block;
+    margin: 0 auto;
+    width: 66%;
+    text-align: center;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+.we-are .line .item a:hover{
+    background: #000;
+    color: #fff;
+}
+
+/* our-work */
+.our-work{
+    padding-top: 70px;
+}
+
+.our-work .container{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 70px;
+}
+
+.our-work h2{
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.our-work .choose{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 380px;
+    margin: 0 auto 40px auto;
+}
+
+.our-work .choose a{
+    font-size: 16px;
+    display: block;
+    padding: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.our-work .choose a:hover{
+    background: #46ee3d;
+}
+
+.our-work .grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-work .grid figure{
+    width: 31%;
+    margin-bottom: 10px;
+}
+
+.our-work .grid figure img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.our-work .grid figure figcaption{
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1a237e;
+    letter-spacing: 2px;
+}
+
+/* PRE footer */
+.pre-footer{
+    padding: 70px 0;
+    line-height: 27px;
+}
+
+.pre-footer .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-top;
+}
+
+.pre-footer .item{
+    width: 32%;
+}
+
+.pre-footer .item h4{
+    font-size: 26px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.pre-footer .item a{
+    text-decoration: none;
+    color: #000;
+}
+
+.pre-footer .item a:hover{
+    color: #69f0ae;
+}
+
+.pre-footer .item ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+.main-footer{
+    background: #ccc;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    line-height: 27px;
+    font-weight: 300;
+}
